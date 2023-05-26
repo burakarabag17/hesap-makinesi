@@ -1,0 +1,75 @@
+
+#body{
+    background-color: rgb(245, 245, 229);
+}
+
+#h1{
+    color: #004684;
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+#HesapMakinesi{
+    background-color: #ffef03;
+    height: 500px;
+    width: 550px;
+    margin:  auto;
+    border: solid 288c;
+    border-radius: 30px;
+}
+
+#sonuç{
+    width: 285px;
+    height: 50px;
+    border: solid #ffef03 3.2px;
+    border-radius: 7px;
+    background-color: rgb(245, 245, 229);
+    text-align: right;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: #004684;
+    font: bold;
+    color: rgb(18, 144, 108);
+}
+
+
+#gösterge{
+    padding: 20px;
+    text-align: center;
+    height: 20px 0px;
+}
+
+
+#işaretler{
+    text-align: center;
+    height: 400px;
+    width: auto;
+    padding-top: 20px;
+    background-color: #004684;
+    border-radius: 30px;
+}
+
+button, #AllClear, #Clear, #PI {
+    height: 75px;
+    width: 78px;
+    margin: 10px;
+    border: solid #ffef03 3.5px;
+    color: #004684;
+    font-size: 40px;
+    background-color: rgb(18, 144, 108);
+    border-radius: 15px;
+}
+
+button:hover, #AllClear:hover, #Clear:hover, #PI:hover {
+    background-color: rgb(34, 161, 125);
+}
+
+!#Equal, #AllClear, #Clear {
+    width: 110px;
+}
+
+.b, #AllClear, #Clear {
+    color: rgb(241, 247, 255);
+}
