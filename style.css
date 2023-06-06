@@ -13,56 +13,92 @@
 
 #HesapMakinesi{
     background-color: #ffef03;
-    height: 500px;
-    width: 550px;
+    height: 558px;
+    width: 560px;
     margin:  auto;
-    border: solid 288c;
+    border: #ffef03 solid 5px;
     border-radius: 30px;
 }
 
+.cal{
+    background-color: #ffef03;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px ;
+    height: 550px ;
+}
+
 #sonuç{
-    width: 285px;
+    width: 28px;
     height: 50px;
     border: solid #ffef03 3.2px;
     border-radius: 7px;
     background-color: rgb(245, 245, 229);
-    text-align: right;
+    text-align: right, center;
     font-size: 48px;
     font-family: 'Times New Roman', Times, serif;
     border-color: #004684;
     font: bold;
     color: rgb(18, 144, 108);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    letter-spacing: 2px;
+    width: 100%;
 }
 
-
-#gösterge{
-    padding: 20px;
-    text-align: center;
-    height: 20px 0px;
+#ekran{
+    background-color: rgb(245, 245, 229);
+    width: auto;
+    text-align: right;
+    color: rgb(18, 144, 108);
+    justify-content: flex-end;
+    padding: 0px 30px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 #işaretler{
     text-align: center;
-    height: 400px;
-    width: auto;
-    padding-top: 20px;
+    height: 443px;
+    width: 560px;
     background-color: #004684;
     border-radius: 30px;
+    padding-top: 10px;
 }
 
-button, #AllClear, #Clear, #PI {
+.col{
+    display: flex;
+    width: auto;
+    margin: 3px 10px 3px;
+}
+
+.cal{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.tus {
     height: 75px;
     width: 78px;
-    margin: 10px;
+    margin: 12px;
     border: solid #ffef03 3.5px;
     color: #004684;
-    font-size: 40px;
+    font-size: 48px;
     background-color: rgb(18, 144, 108);
     border-radius: 15px;
+    cursor: pointer;
+    font-family: verdana;
 }
 
-button:hover, #AllClear:hover, #Clear:hover, #PI:hover {
+#AllClear:hover, #Clear:hover, .tus:hover{
     background-color: rgb(34, 161, 125);
 }
 
@@ -70,6 +106,36 @@ button:hover, #AllClear:hover, #Clear:hover, #PI:hover {
     width: 110px;
 }
 
-.b, #AllClear, #Clear {
+.b, #AllClear, #Clear, .a {
     color: rgb(241, 247, 255);
+    text-align: center;
+    vertical-align: middle;
 }
+
+#plus{
+    font-size: 55px;
+}
+
+#star{
+    font-size: 50px;
+}
+
+.sayi{
+    font-size: 52px;
+}
+
+#hesapla{
+    font-size: 55px;
+}
+
+#AllClear, #Clear{
+    font-size: 47px;
+}
+
+
+#004684;
+rgb(245, 245, 229)
+#ffef03
+rgb(34, 161, 125)
+rgb(18, 144, 108)
+rgb(241, 247, 255)
